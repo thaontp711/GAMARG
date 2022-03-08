@@ -9,7 +9,7 @@ CPPFLAGS = -I. -O
 
 all: gamarg
 
-gamarg: main.o utilities.o CData.o COneNode.o CGAMARG.o CARG.o Match.o #CVCF.o main.o VCF_utilities.o utilities.o CCDif.o
+gamarg: libgzstream.a main.o utilities.o CData.o COneNode.o CGAMARG.o CARG.o Match.o #CVCF.o main.o VCF_utilities.o utilities.o CCDif.o
 	g++ ${CPPFLAGS} -O3 -Wall gzstream/gzstream.o main.o CData.o utilities.o COneNode.o Match.o CGAMARG.o CARG.o  -lstdc++ -lpthread -lz  -o gamarg
 
 main.o: main.cpp
