@@ -17,7 +17,7 @@ Type ./gamarg for showing options.
 
 Example:
 To build 3 ARGs for data in sample directory using 1 thread and theta = 5, the command line is:
-./gamarg –out sample/arg –nthread 1 –narg 3 -ndistgam 5 –data sample/100haps10ksnps.test1 sample/100haps.name
+./gamarg –out sample/arg –nthread 1 –narg 3 -ndistgam 5 –data sample/haps.in sample/.name
 
 We will have 3 ARGs: arg0, arg1, arg2 in sample directory.
 
