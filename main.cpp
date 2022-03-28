@@ -14,7 +14,7 @@ void help(void)
   printf("  -out <output ARG file>\n");
   printf("  -nthread <number of threads>\n");
   printf("  -narg <number of args>\n");
-  printf("  -mapping <number of permutations>\n");
+  //printf("  -mapping <number of permutations>\n");
   printf("  -data <haps> <sample info>\n");
     printf("  -ndistgam <distance to check gamete types>\n");
   printf("  -trees <data info> <output marginal trees> \n");
